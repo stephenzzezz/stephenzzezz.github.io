@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Game News</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container,
+        .gamereviews,
+        .gameimages {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        header {
+            background: #50b3a2;
+            color: white;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+
+        header ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            overflow: hidden;
+        }
+
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+
+        header #branding {
+            float: left;
+        }
+
+        header #branding h1 {
+            margin: 0;
+        }
+
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+
+        header .highlight,
+        header .current a {
+            color: #e8491d;
+            font-weight: bold;
+        }
+
+        header a:hover {
+            color: #ffffff;
+            font-weight: bold;
+        }
+
+        h2 {
+            color: #333;
+            font-size: 1.5em;
+        }
+
+        p,
+        ul,
+        table {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            background: #e8491d;
+            color: white;
+            padding: 10px;
+            margin-bottom: 5px;
+        }
+
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid #ddd;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #50b3a2;
+            color: white;
+        }
+
+        /* .imgbox {
+            margin: 0 auto;
+            width: 686px;
+            height: 386px;
+            text-align: center;
+        } */
+
+        img {
+            width: 560px;
+            height: 300px;
+            /* margin: 0 auto; */
+        }
+
+        a {
+            color: #50b3a2;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #e8491d;
+        }
+footer {
+    height: 70px;
+    padding: 10px 0;
+    background-color: #50b3a2;
+    color: white;
+    text-align: center;
+}
+
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Game</span> News</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="#">Home</a></li>
+                    <li><a href="gamenews.html">More News</a></li>
+                    <li><a href="gamereview.html">Reviews</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+   
+    <div class="container">
+        <h2>Popular Games</h2>
+        <ul>
+            <li>
+                <b>Elden Ring:</b> The newest fantasy adventure from acclaimed developers, set in a breathtaking open
+                world. Expected Release: February 2022.
+            </li>
+            <li>
+                <i>Horizon Forbidden West:</i> A sequel to the award-winning open-world game, featuring stunning
+                landscapes and innovative gameplay. Expected Release: Late 2022.
+            </li>
+            <li>
+                <b>God of War Ragnarok:</b> The next chapter in the legendary series, promising an epic narrative and
+                enhanced combat mechanics. Expected Release: 2023.
+            </li>
+            <li>
+                <i>Starfield:</i> An ambitious space exploration RPG from the creators of Skyrim, offering unprecedented
+                freedom and adventure. Expected Release: Early 2023.
+            </li>
+            <li>
+                <b>Halo Infinite:</b> The continuation of the iconic Halo series, featuring Master Chief in an expansive
+                and dynamic new journey. Expected Release: December 2022.
+            </li>
+            <li>
+                <i>Final Fantasy XVI:</i> The latest installment in the legendary RPG series, promising a blend of
+                classic elements and modern innovation. Expected Release: Mid-2023.
+            </li>
+        </ul>
+    </div>
+
+    <div class="gamereviews">
+        <h2>Game Reviews</h2>
+        <table>
+            <tr>
+                <th>Game</th>
+                <th>Rating</th>
+                <th>Review</th>
+            </tr>
+            <tr>
+                <td>The Last of Us Part II</td>
+                <td>9/10</td>
+                <td>A breathtaking journey through a post-apocalyptic world.</td>
+            </tr>
+            <tr>
+                <td>God of War</td>
+                <td>10/10</td>
+                <td>An unmatched mythological epic with stunning visuals.</td>
+            </tr>
+            <tr>
+                <td>Red Dead Redemption 2</td>
+                <td>9.5/10</td>
+                <td>An immersive and detailed wild west experience.</td>
+            </tr>
+            <tr>
+                <td>Death Stranding</td>
+                <td>8/10</td>
+                <td>A unique, thought-provoking narrative and gameplay.</td>
+            </tr>
+            <tr>
+                <td>Control</td>
+                <td>8.5/10</td>
+                <td>A supernatural adventure with mind-bending visuals.</td>
+            </tr>
+            <tr>
+                <td>Cyberpunk 2077</td>
+                <td>7/10</td>
+                <td>An ambitious open-world RPG with a rich story.</td>
+            </tr>
+        </table>
+        <p>Check out our <a href="gamereview.html">full reviews</a> for more.</p>
+    </div>
+
+
+    <div class="gameimages">
+        <h2>Game Images</h2>
+        <img src="image/elde.jpg" alt="Elden Ring Game">
+        <img src="image/horizon.jpg" alt="Horizon Forbidden West Game">
+<p>Click <a href="https://store.steampowered.com/">here</a> to go to STEAM for more pictures of the game.</p>
+
+    </div>
+	    
+   
+    <footer>
+        <div class="w info">
+            <p>Created by XIAO ZHIRUI</p>
+        
+        </div>
+
+    </footer>
+
+
+
+
+</body>
+
+</html>
